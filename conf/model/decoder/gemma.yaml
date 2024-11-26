@@ -1,0 +1,17 @@
+model_name: "gemma"
+quantization: True
+embedding_size: 2048
+Lora: True
+lora_r: 128
+lora_alpha: 256
+lora_dropout: 0.1
+lora_task_type: "CAUSAL_LM"
+lora_bias: "none"
+prompt: "user:You are a helpful AI assistant for recognizing the input video in English.Input:"
+top_p: 0.9
+repetition_penalty: 1.0
+length_penalty: 1.0
+num_beams: 1
+temperature: 0.9
+max_new_tokens: 200
+mlp_layers: 2

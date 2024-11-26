@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - trainer: train
+  - model: default
+  - dataset: lrs2
+gpus:
+log_dir: "/home/zzzzz/vsr_llm_lightning/log"
+ckpt_path: "/home/zzzzz/vsr_llm_lightning/ckpts"
+resume_from_checkpoint:
+pretrained_model_path:
